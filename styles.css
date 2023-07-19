@@ -103,7 +103,7 @@ main{
 }
 .project{
     width: 100%;
-    height: 80vh;
+    height: auto;
 
 }
 .project-header{
@@ -140,4 +140,52 @@ main{
     margin-top: 20px;
     font-weight: bold;
     color: white;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+.contact-header{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: tomato;
+}
+form{
+    max-width: 500px;
+    width: 100%;
+    /* border: 2px solid; */
+    padding: 20px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+    background-color: white;
+    margin-top: 20px;
+
+
+}
+input{
+    width: 90%;
+    height: 40px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    background-color: lightgray;
+}
+textarea{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: lightgray;
+}
+.form-container{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
